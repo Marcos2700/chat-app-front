@@ -8,7 +8,7 @@ import { WebStorageStateStore } from "oidc-client-ts";
 const cognitoAuthConfig = {
   authority: "https://cognito-idp.us-east-2.amazonaws.com/us-east-2_jghvbf7k2",
   client_id: "1757s9m6km1pm08409p2k2i3ta",
-  redirect_uri: window.location.origin,
+  redirect_uri: "https://main.d1zaa8ykmv2imp.amplifyapp.com/",
   response_type: "code",
   scope: "email openid phone",
   userStore: new WebStorageStateStore({ store: window.localStorage }),
